@@ -125,6 +125,6 @@ alias git-log='git log --pretty=oneline --all --graph --abbrev-commit' # output 
 alias ll='ls -al'  # output file information of current directory including hide file
 
 
-
+alias rm='rm -i' # ask to confirm before rm something
 
 
