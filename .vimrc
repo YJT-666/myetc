@@ -14,7 +14,6 @@ set tabstop=4 " set 4 space of tap key
 
 
 
-
 set hlsearch " hight light search
 set backspace " can use backspace key to delete
 set autoindent " auto indent
@@ -60,5 +59,11 @@ inoremap jk <esc>
 iabbrev @@ hlyjt2000@163.com
 iabbrev ccopy  Copyright 2023 yjt, all rights reserved
 
+" c/c++ commont
+nnoremap <leader>, ^i// <esc>
+nnoremap <leader>. ^llld0i<tab><esc>
+
+" add tab
+nnoremap <leader>t ^i<tab><esc>
 
 
