@@ -9,7 +9,7 @@ set numberwidth=1
 "about display text
 set wrap  " wrap line
 set tabstop=4 " set 4 space of tap key 
-
+set shiftwidth=4
 
 
 

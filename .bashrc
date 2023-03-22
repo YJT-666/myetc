@@ -117,7 +117,8 @@ if ! shopt -oq posix; then
 fi
 
 
-
+# lib path
+export LD_LIBRARY_PATH=LD_LIBRARY_PATH:/usr/local/lib
 
 
 # git special config
@@ -126,5 +127,4 @@ alias ll='ls -al'  # output file information of current directory including hide
 
 
 alias rm='rm -i' # ask to confirm before rm something
-
 
